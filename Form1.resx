@@ -1,0 +1,969 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label8.Text" xml:space="preserve">
+    <value>preco_plano</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btOpenFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Private.CoreLib" name="System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" />
+  <data name="label6.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing.Primitives" name="System.Drawing.Primitives, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>55, 15</value>
+  </data>
+  <data name="&gt;&gt;txNomenclaturaAtlysBonusFranquia.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>192, 149</value>
+  </data>
+  <data name="&gt;&gt;txTable.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;txDatabase.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txNomenclaturaIntergrall.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txPrecoPlano.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txNomenclaturaAtlysPlanos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txNomenclaturaComercial.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>67, 23</value>
+  </data>
+  <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=4.0.2.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
+  <data name="button1.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="txPrecoPlano.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>67, 23</value>
+  </data>
+  <data name="lbValoresLidos.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>87, 15</value>
+  </data>
+  <data name="cbTruncate.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>260, 121</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>49, 15</value>
+  </data>
+  <data name="&gt;&gt;lbValoresLidos.Name" xml:space="preserve">
+    <value>lbValoresLidos</value>
+  </data>
+  <data name="cbTruncate.Text" xml:space="preserve">
+    <value>Truncate Table Antes do Insert</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Schema</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>138, 15</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="txDatabase.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txPrecoPlano.Name" xml:space="preserve">
+    <value>txPrecoPlano</value>
+  </data>
+  <data name="lbValoresLidos.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btOpenFile.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="txSchema.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>110, 27</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>16</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Database</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;txNomenclaturaIntergrall.Name" xml:space="preserve">
+    <value>txNomenclaturaIntergrall</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 18pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txNomenclaturaAtlysPlanos.Name" xml:space="preserve">
+    <value>txNomenclaturaAtlysPlanos</value>
+  </data>
+  <data name="txSchema.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>123, 23</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;txPrecoPlano.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txDatabase.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>65, 23</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>20</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>105, 236</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Gerador de Query De/Para - BKO Retenção Móvel</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txSchema.Name" xml:space="preserve">
+    <value>txSchema</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>nomenclatura_atlys_planos</value>
+  </data>
+  <data name="txNomenclaturaAtlysBonusFranquia.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>67, 23</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAMAEBAAAAEAIABoBAAANgAAACAgAAABACAAKBEAAJ4EAAAwMAAAAQAgAGgmAADGFQAAKAAAABAA
+        AAAgAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFGxsbsyMiI70jIiO9IyIjvSIf
+        GL0fFwi9HxcIvR8XCL0iHhe9IyIjvSMiI70jIiO9IyIjvRsbG3wAAAAAFxcXC6CfoP3r6+v/6+vr/+vr
+        6//g0Kf/v4MA/7+DAP+/gwD/2L6B/+vr6//r6+v/6+vr/+vr6/+OjY63AAAAABcAFwurq6v9////////
+        ////////+vPh/8qNAv/KjAD/yowA/+fLi///////////////////////mZiZtwAAAAAXABcLq6qr/f//
+        //+2tbb7mZiZ95iXl/i4hAv/yYsA/3BLAf28rY/+/////769vvyZmJn3mZiZ911dXbIAAAAAFwAXC6uq
+        q/3/////hoSGjwkJCRwICAgicU0C5MqMAP92UgLtnZ2e7f////+JiIu2CQkJHAkJCRwAAAAPAAAAABcA
+        Fwurqqv9/////3t5e/JCP0L5QT9B+SolHN6yewD/xIcA/7eqkP//////h4aH/UI/QvlCP0L5Ly0vkgAA
+        AAAXABcLq6qr/f/////+/v7//v7+//7+/v+OjI6VUDcDvceKAP/mzIz///////7+/v/+/v7//v7+/5KS
+        krcAAAAAFwAXC6uqqv3//////v7+//7+/v/+/v7/lJKUjwgICCKJXgH05suM///////+/v7//v7+//7+
+        /v+SkpK3AAAAABcAFwuqqqr9/////4WFhd1ZWVm4U09O1TwuGfMhGAd1WDwCmebLjP//////kJCR6FlZ
+        WbhZWVm4Ozk7eAAAAAAXABcLqqmq/f////9ubG7TLywvpDoxJcnGiQD/eFIDx040Apfmy4z//////3t6
+        e+IvLC+kLywvpCAeIHYAAAAAFwAXC6qpqv3/////+vr6//n5+f/5+Pb/0JgZ/695AP+NYQH85cqM////
+        ///7+/v/+fn5//n5+f+WlZa3AAAAABcAFwuqqar9/////////////////////8GdT//KjAD/yowA/+XK
+        jP//////////////////////mZiZtwAAAAAcABwJb25v96Khov6ioaL+oqGi/qKhov5QSkLhiV4B/5tq
+        AP9+clv+oqGi/qKhov6ioaL+oqGi/mdmZ68AAAAAAAAAAAAAABoAAAAeAAAAHgAAAB4AAAAeDQ0NFBAN
+        DVEQDQ1RCAgIHgAAAB4AAAAeAAAAHgAAAB4AAAARAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAACAAAABAAAAAAQAgAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABMTE2AVFRV8FRUVfBUV
+        FXwVFRV8FRUVfBUVFXwVFRV8FRUVfBUVFXwVFRV8FRUVfBUVFXwVFRV8FRUVfBUVFXwVFRV8FRUVfBUV
+        FXwVFRV8FRUVfBUVFXwVFRV8FRUVfBUVFXwVFRV8FRUVfA8PDxEAAAAAAAAAAAAAAAANDQ0TFBQU8yop
+        Kv8qKSr/Kikq/yopKv8qKSr/Kikq/yopKv8qKSr/Jh4M/yQZA/8kGQP/JBkD/yQZA/8kGQP/JBkD/yUb
+        CP8qKSn/Kikq/yopKv8qKSr/Kikq/yopKv8qKSr/Kikq/yopKv8jIiP/Dw8PYwAAAAAAAAAAAAAAABcX
+        FxZOTU782NfY/9jX2P/Y19j/2NfY/9jX2P/Y19j/2NfY/9jX2P/EoEn/tHsA/7R7AP+0ewD/tHsA/7R7
+        AP+0ewD/uogZ/9jX1v/Y19j/2NfY/9jX2P/Y19j/2NfY/9jX2P/Y19j/2NfY/7Kxsv8XFxdwAAAAAAAA
+        AAAAAAAAFxcXFllXWfz+/v7//////////////////////////////////////+fJfP/KjAD/yowA/8qM
+        AP/KjAD/yowA/8qMAP/Rmxz//v36////////////////////////////////////////////0tHS/xkX
+        GXAAAAAAAAAAAAAAAAAXDBcWWFdY/P7+/v//////////////////////////////////////8N2r/8qL
+        AP/KjAD/yowA/8qMAP/KjAD/yowA/9CaHP/+/fr/////////////////////////////////////////
+        ///S0dL/FxcXcAAAAAAAAAAAAAAAABcMFxZYV1j8/v7+////////////////////////////////////
+        ///58dv/zJAI/8qMAP/KjAD/yowA/8qMAP/KjAD/0Zoc//79+v//////////////////////////////
+        /////////////9LR0v8ZFxdwAAAAAAAAAAAAAAAAFwwXFlhWWPz+/v7////////////19fX/6Ofo/+jn
+        6P/o5+j/6Ofo/+jm5P/NmyL/yowA/8qMAP/JiwD/rXYA/6pzAP+3hxz//v36////////////+fn5/+jo
+        6P/o5+j/6Ofo/+jn6P/o5+j/v76//xcXF3AAAAAAAAAAAAAAAAAXDBcWV1ZX/P7+/v///////////7Cu
+        r/5FREXwRURE70VERO9FRETvRENE8n5dDP/KjAD/yowA/8mLAP9ILgD/HRMG+DsyJvv9/fz/////////
+        ///NzM3/RURF9UVERO9FRETvRURE70VERO86OTrvERERaQAAAAAAAAAAAAAAABcMFxZXVlf8/v7+////
+        ////////mJeY+gAAACcAAAAZAAAAGQAAABkLCwUwMSEE8caIAP/KjAD/yowA/5VmAP8TDwm9MzE0yfz8
+        /P///////////7y7vP8TERNrAAAAGQAAABkAAAAZAAAAGQAAABkAAAALAAAAAAAAAAAAAAAAFwwXFldW
+        V/z+/v7///////////+ZmJn5Dg4OJBAQEB8QEBAfEBAQHxAQEB8QDQihlWYA/8qMAP/KjAD/yIoA/041
+        AvgtKy3u/Pz9////////////vLq8/xcXGXAQEBAfEBAQHxAQEB8QEBAfFBQUGQAAAAAAAAAAAAAAAAAA
+        AAAXDBcWV1ZX/P7+/v///////////5eWl/wLCwvODg4O8w4ODvMODg7zDQ0N8wwLC9A2JAT+w4cA/8qM
+        AP/KjAD/sXoA/z40KP/8/P3///////////+9vL3/Dg0O9w4ODvMODg7zDg4O8w4ODvMNDQ3ZAAAADwAA
+        AAAAAAAAAAAAABcMFxZXVlf8/v7+////////////w8LD/3Jvcv9yb3L/cm9y/3Jvcv9yb3L/TElM/g8M
+        CaxyTAH/yowA/8qMAP/KjAD/pXwg//z8/P///////////9vb2/9ycHL/cm9y/3Jvcv9yb3L/cm9y/1tZ
+        W/8QEBBgAAAAAAAAAAAAAAAAFwwXFldWV/z+/v7////////////+/v7//f39//39/f/9/f3//f39//39
+        /f+mpaf+DQkJORkRBMCjcAD/yowA/8qMAP/Qmx3//f38/////////////v7+//39/f/9/f3//f39//39
+        /f/9/f3/y8rL/xISEnAAAAAAAAAAAAAAAAAXDBcWV1VX/P7+/v//////////////////////////////
+        /////////////6alp/4AAAAeDQ0IPDUkBPrAhAD/yowA/8+aHf/9/fz/////////////////////////
+        ///////////////////Kycr/EhIScAAAAAAAAAAAAAAAABcMFxZXVVb8/v7+////////////////////
+        ////////////////////////pqWn/gAAAB4AAAACCggIe3BLAf7KjAD/z5od//39/P//////////////
+        /////////////////////////////8rJyv8SEhJwAAAAAAAAAAAAAAAAFwwXFldVVvz+/v7/////////
+        ///+/v7//f39//39/f/9/f3//f39//39/f+mpqf+CAgAIQAAAAIAAAAJHxYF1bh+AP/PmR3//f38////
+        /////////v7+//39/f/9/f3//f39//39/f/9/f3/y8rL/xISEnAAAAAAAAAAAAAAAAAXDBcWVlVW/P7+
+        /v///////////8LCwv9+fX7/fnx+/358fv9/fX//f31//1NQVP8QDQvQEA8LngAAAAMLCAhegFYA/s+a
+        Hf/9/fz////////////Y19j/f31//358fv9+fH7/fnx+/358fv9mZGb/EBAQYAAAAAAAAAAAAAAAABcM
+        FxZWVVb8/v7+////////////jIqM/AgICHsHBwdyBwcHcgcHB3IWDwLjQisB/0EqAf8wHwL7Eg0NOQAA
+        ABFUOQH5z5od//39/P///////////7Cwsf8LCwulBwcHcgcHB3IHBwdyBwcHcgkJCXIRABEPAAAAAAAA
+        AAAAAAAAFwwXFlZUVvz+/v7///////////+Mioz7AwMDVQAAAEoAAABKAAAASjMiAdvFhwD/xIcA/51r
+        AP8UDghbAAAAEE81AvnPmh3//f38////////////sLCw/wkJCYsAAABKAAAASgAAAEoAAABKAwMDSg8P
+        DyEAAAAAAAAAAAAAAAAXDBcWVlRW/P7+/v///////////6SipP89OT3/PTk9/z05Pf89OT3/UEU1/8eK
+        Av/KjAD/voMA/x0UBcMJCQlYaEYB/c6ZHf/9/fz////////////Ew8T/PTo9/z05Pf89OT3/PTk9/z05
+        Pf8zMDP/EBAQcAAAAAAAAAAAAAAAABcMFxZWVFb8/v7+////////////+fn5//Pz8//z8/P/8/Pz//Pz
+        8//z8Oj/0Jkb/8qMAP/KjAD/ZUUB/hsRA/WhbgD/zZkd//39/P////////////v7+//z8/P/8/Pz//Pz
+        8//z8/P/8/Pz/8jHyP8ZFxlwAAAAAAAAAAAAAAAAFwwXFlVUVvz+/v7/////////////////////////
+        /////////////////v/bsEj/yowA/8qMAP/DhgD/q3UA/8iLAP/NmB3//fz7////////////////////
+        ////////////////////////0tHS/xcXF3AAAAAAAAAAAAAAAAAXDBcWVVRV/P7+/v//////////////
+        /////////////////////////////+DJj//JigD/yowA/8qMAP/KjAD/yowA/82YHf/9/Pv/////////
+        ///////////////////////////////////S0dL/FxcXcAAAAAAAAAAAAAAAABcMFxZVU1X8/v7+////
+        ////////////////////////////////////////t7Kt/6ZxAP/LjAD/yowA/8qMAP/KjAD/z5od//38
+        /P///////////////////////////////////////////9LR0v8XFxdwAAAAAAAAAAAAAAAAFwwXFlJR
+        Uvzy8vL/8vLy//Ly8v/y8vL/8vLy//Ly8v/y8vL/8vLy//Ly8v+mpab/NSMC+LV9AP/KjAD/yowA/8eJ
+        AP+fdhz/8fDx//Ly8v/y8vL/8vLy//Ly8v/y8vL/8vLy//Ly8v/y8vL/yMfI/xkXGXAAAAAAAAAAAAAA
+        AAASEhIOIh8i5FFPUv1RT1L9UU9S/VFPUv1RT1L9UU9S/VFPUv1RT1L9UU9S/Tk3Of0ODAqSLiAD/nhR
+        AP+FWQD/VjoB/hoVD/1RTlH9UU9S/VFPUv1RT1L9UU9S/VFPUv1RT1L9UU9S/VFPUv1EQkT9ExATUAAA
+        AAAAAAAAAAAAAAAAAAAGBgYuBAQEPAQEBDwEBAQ8BAQEPAQEBDwEBAQ8BAQEPAQEBDwEBAQ8CAgIPAwM
+        DBYMDAxnEg4N1RQQDdUKCgpnDQgIPAQEBDwEBAQ8BAQEPAQEBDwEBAQ8BAQEPAQEBDwEBAQ8BAQEPAQE
+        BDwAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAIAAAAGAAAABgAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAADAA
+        AABgAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAABMTEygTExNCExMTQhMTE0ITExNCExMTQhMTE0ITExNCExMTQhMT
+        E0ITExNCExMTQhMTE0ITExNCExMTQhMTE0ITExNCExMTQhMTE0ITExNCExMTQhMTE0ITExNCExMTQhMT
+        E0ITExNCExMTQhMTE0ITExNCExMTQhMTE0ITExNCExMTQhMTE0ITExNCExMTQhMTE0ITExNCExMTQhMT
+        E0ISEhIqAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAEhISDg8PD68ODg7pDg4O6Q4ODukODg7pDg4O6Q4O
+        DukODg7pDg4O6Q4ODukODg7pDg4O6Q4ODukODg7pDg4O6Q4NDekODQ3pDg0N6Q4NDekODQ3pDg0N6Q4N
+        DekODQ3pDg0N6Q4ODekODg7pDg4O6Q4ODukODg7pDg4O6Q4ODukODg7pDg4O6Q4ODukODg7pDg4O6Q4O
+        DukODg7pDg4O6Q4ODukPDw+tDAwMFQAAAAAAAAAAAAAAAAAAAAAAAAAAFg8WIxIREvU1MzX/QT9B/0E/
+        Qf9BP0H/QT9B/0E/Qf9BP0H/QT9B/0E/Qf9BP0H/QT9B/0E/Qf8/Oi7/OCgG/zclAf83JQH/NyUB/zcl
+        Af83JQH/NyUB/zclAf83JQH/NyUB/zcmBP89NSf/QT9A/0E/Qf9BP0H/QT9B/0E/Qf9BP0H/QT9B/0E/
+        Qf9BP0H/QT9B/0E/Qf9BP0H/QT9B/z07Pf8fHx/oDAwMKQAAAAAAAAAAAAAAAAAAAAAAAAAAFRUVJSIh
+        IvugnqD/xMLD/8TCw//EwsP/xMLD/8TCw//EwsP/xMLD/8TCw//EwsP/xMLD/8TCw//Atpn/qXsX/6Nv
+        AP+jbwD/o28A/6NvAP+jbwD/o28A/6NvAP+jbwD/o28A/6ZzB/+4o3b/xMLC/8TCw//EwsP/xMLD/8TC
+        w//EwsP/xMLD/8TCw//EwsP/xMLD/8TCw//EwsP/xMLD/7i2t/9PTU7sEhISKgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAFRUVJSgoKPvOzc7/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7
+        +//48uD/1qQw/8yNAP/MjQD/zI0A/8yNAP/MjQD/zI0A/8yNAP/MjQD/zI0A/86SCv/q05f/+/v6//v7
+        +//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7/+3s7f9jYmPsGBIYKgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAFRUVJSgnKPvPzs//////////////////////////////////////////
+        ///////////////////9+vP/27A7/8mLAP/KjAD/yowA/8qMAP/KjAD/yowA/8qMAP/KjAD/yowA/8yQ
+        Cf/r05f///79//////////////////////////////////////////////////////////////////Dw
+        8P9kY2TsGBIYKgAAAAAAAAAAAAAAAAAAAAAAAAAAFQ4VJSgnKPvPzs//////////////////////////
+        ///////////////////////////////////+/fr/5MRo/8mKAP/KjAD/yowA/8qMAP/KjAD/yowA/8qM
+        AP/KjAD/yowA/8yPCf/r0pb///79////////////////////////////////////////////////////
+        //////////////Dv8P9kYmTsEhISKgAAAAAAAAAAAAAAAAAAAAAAAAAAFQ4VJSgnKPvPzs//////////
+        /////////////////////////////////////////////////////v3/79ql/8uMAv/KjAD/yowA/8qM
+        AP/KjAD/yowA/8qMAP/KjAD/yowA/8yPCf/r0pb///79////////////////////////////////////
+        //////////////////////////////Dv8P9kYmTsEhISKgAAAAAAAAAAAAAAAAAAAAAAAAAAFQ4VJSgn
+        KPvPzs7/////////////////////////////////////////////////////////////////9+zM/8+W
+        E//KiwD/yowA/8qMAP/KjAD/yowA/8qMAP/KjAD/yowA/8yPCf/r05b///79////////////////////
+        //////////////////////////////////////////////Dv8P9kYmTsGBISKgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAFQ4VJSgnKPvOzc7///////////////////////79/v/4+Pj/9/f3//f39//39/f/9/f3//f3
+        9//39/f/9fPr/9epNv/KiwD/yowA/8qMAP/KjAD/yosA/8KFAP/BhAD/wYQA/8SJCf/o0Zf///79////
+        //////////////7+/v/5+fn/9/f3//f39//39/f/9/f3//f39//39/f/9/f3/+no6f9iYWLsGBIYKgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAFQ4VJSgnKPvOzc7//////////////////////+zr7P+urK7/o6Ci/6Og
+        ov+joKL/o6Ci/6Ogov+joKL/o6Gj/6eIMP/HigD/yowA/8qMAP/KjAD/x4kA/3ZOAP9WOAD/VzgB/2BC
+        C//Dt5v//v7+//////////////////f29/+6ubr/o6Gj/6Ogov+joKL/o6Ci/6Ogov+joKL/o6Ci/5mX
+        mP9DQULsEhISKgAAAAAAAAAAAAAAAAAAAAAAAAAAFQ4VJSgnKPvOzc7//////////////////////9HQ
+        0f8/PT7zIiIi5iMjI+UjIyPlIyMj5SMjI+UjIyPlIyMj7EAxCv+5gAD/yowA/8qMAP/KjAD/yYsA/21J
+        AP8VDQX/FhAK7hwWEfWmo6P//v7+/////////////////+vq6v9YVlj7IyIj6CMjI+UjIyPlIyMj5SMj
+        I+UjIyPlIyMj5SEgIeUWFhbUDQ0NJgAAAAAAAAAAAAAAAAAAAAAAAAAAFQ4VJSgnKPvOzc7/////////
+        /////////////83Nzf03NjedAAAALgAAACoAAAAqAAAAKgAAACoAAAAqCwsJWRsTBvaUZQD/yosA/8qM
+        AP/KjAD/yowA/6p1AP8vIAX+EQ4MhBgYGKqkoqT//v7+/////////////////+jn6P9OTE7hCAgIQwAA
+        ACoAAAAqAAAAKgAAACoAAAAqAAAAKgAAACoHBwcnAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAFQ4VJSgn
+        KPvOzc7//////////////////////83Nzf09PT2JAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAFRUVDBUP
+        Ca1jQwH9xIcA/8qMAP/KjAD/yowA/8WIAP9wTAH/GBIIyRcXF7GkoqT//v7+/////////////////+jn
+        6P9STlLbGRkZHwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAFQ4VJSgnKPvOzc7//////////////////////83Nzf08PDyRFBQUMxQUFDQUFBQ0FBQUNBQU
+        FDQUFBQ0FA8PNBEODGoyIgTrrHYA/8uMAP/KjAD/yowA/8qMAP+veAD/OygD+xQSE/SkoqT//v7+////
+        /////////////+jn6P9QTVDiFxQXTBQUFDQUFBQ0FBQUNBQUFDQUFBQ0FBQUNBUVFTAREREPAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAFQ4VJSgnKPvOzc7//////////////////////8zMzP4xLzG9EBAQ2hER
+        EewRERHsERER7BEREewREBDsEBAQ7BAPDdEQDAfNZkQB/8WIAP/KjAD/yowA/8qMAP/KjAD/jmEA/yIa
+        D/+koqT//v7+/////////////////+jo6P9IR0j8ERER7hEREewRERHsERER7BEREewRERHsERER7BER
+        EeAODg5ZAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAFQ4VJSgnKPvOzc7//////////////////////9LR
+        0v8/Pj/2JCIk/CQiJP8kIiT/JCIk/yQiJP8kIiT/JCIk/yAeIPoQDg/eIBUE9ZFiAP/JiwD/yowA/8qM
+        AP/KjAD/w4cA/3NQDf+vqqH//v7+/////////////////+vr6/9ZWFn/JSIl/yQiJP8kIiT/JCIk/yQi
+        JP8kIiT/JCIk/yIgIv0VExWuDQ0NEwAAAAAAAAAAAAAAAAAAAAAAAAAAFQ4VJSgnKPvOzc3/////////
+        /////////////+np6f+hn6H/k5GT/5ORk/+TkZP/k5GT/5ORk/+TkZP/k5GT/357fv8qKSqvDgsKujsm
+        Av+tdwD/yowA/8qMAP/KjAD/y4wA/72ECv/Sw5v//v7+//////////////////b29v+vrq//k5GT/5OR
+        k/+TkZP/k5GT/5ORk/+TkZP/k5GT/4mHif85ODnnDQ0NKAAAAAAAAAAAAAAAAAAAAAAAAAAAFQ4VJSgn
+        KPvNzc3////////////////////////////8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/9bW
+        1/9JSUqeFBANThAMB8NnRgH9woUA/8qMAP/KjAD/yowA/8yQCv/q05r//v7+////////////////////
+        ///8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/+vr6/9dW13sEhISKgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAFQ4VJSgnKPvNzM3/////////////////////////////////////////////////////////
+        /////////////9jY2f9HR0udEREADwsICEMmGgTkjF8A/8qMAP/KjAD/yowA/8yPCv/p05r//v7+////
+        /////////////////////////////////////////////////////////////+3s7f9cWlzsEhISKgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAFQ4VJSgnKPvNzM3/////////////////////////////////////////
+        /////////////////////////////9jY2P9HR0mdAAAAChEREQ8QDQqgNSMD/K53AP/LjAD/yowA/8yP
+        Cv/o0pr//v7+/////////////////////////////////////////////////////////////////+zs
+        7P9bWlvsEhISKgAAAAAAAAAAAAAAAAAAAAAAAAAAFQ4VJSgmKPvNzM3/////////////////////////
+        /////////////////////////////////////////////9jY2P9HR0mdAAAACgAAAAENDQ07CQgHvWBB
+        Af7AhAD/yowA/8yPCv/o0pr//v7+////////////////////////////////////////////////////
+        /////////////+zs7P9bWlvsEhISKgAAAAAAAAAAAAAAAAAAAAAAAAAAFQ4VJSgmKPvNzM3/////////
+        /////////////////////////////////////////////////////////////9jY2f9HR0udAAAACgAA
+        AAAAAAABBwcHRiIWBPCWZgD/yYsA/8yPCv/o0pr//v7+////////////////////////////////////
+        /////////////////////////////+3s7f9cWlzsEhISKgAAAAAAAAAAAAAAAAAAAAAAAAAAFQ4VJSgm
+        KPvNzM3////////////////////////+///8/Pz//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/9fX
+        2P9JSEugAAAADgAAAAQAAAABAAAABxINCp5aPQL+woYA/8yPCv/o0pr//v7+////////////////////
+        ///9/f3//Pz8//z8/P/8/Pz//Pz8//z8/P/8/Pz//Pz8/+zs7P9dW13sEhISKgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAFQ4VJSgmKPvNzM3//////////////////////+jo6P+op6j/n56f/5+dn/+fnZ//n52f/5+e
+        n/+hnqH/oZ6h/4mGif8oJSjdFBIMqhQSDJgSEgwqAAAAAA0NCDwyIgXir3gA/8yPCv/o0pr//v7+////
+        //////////////T09P+0srT/n56f/5+dn/+fnZ//n52f/5+dn/+fnZ//n52f/5WTlf8+PD7nDQ0NKAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAFQ4VJSgmKPvNzM3//////////////////////8vKy/9AP0DyLy4v5S8u
+        L+QvLi/kLy4v5C8uL+QtLC3sLSoo/S0oIv8WEAv/Eg4G/xINBvYNCwZ3AAAABgAAAA0ZEAOklGQA/syQ
+        Cv/o0pr//v7+/////////////////+Xl5v9WVVb7Li0u5y8uL+QvLi/kLy4v5C8uL+QvLi/kLy4v5C0s
+        LeQaGRqmDQ0NEwAAAAAAAAAAAAAAAAAAAAAAAAAAFQ4VJSgmKPvNzM3//////////////////////8PC
+        xP4sKiykBAQEPQQEBDkEBAQ5BAQEOQQEBDkEBAJ0LBsB8l4+AP9cPAD/XDwA/1M2Af8hFwjIFBQKGQAA
+        AAULBwSKfVUB/cyRCv/o0pr//v7+/////////////////+Hg4f9AQEDjCQkJUQQEBDkEBAQ5BAQEOQQE
+        BDkEBAQ5BAQEOQQEBDkHBwckAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAFQ4VJSgmJ/vNy8z/////////
+        /////////////8TDxP0vLC6XAAAAIAAAABwAAAAcAAAAHAAAABwFAwNfUDQA8L+EAP++ggD/voIA/7F4
+        AP9GMAXbEBAIHwAAAAUHBgaJeVMB/cyRCv/n0pn//v7+/////////////////+Hg4f9BQULfCQkJNwAA
+        ABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwKCgoaAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAFQ4VJScm
+        J/vMy8z//////////////////////8TDxf8oJijlEA8QyREOEccRDhHHEQ4RxxEOEccRDg/YQi4J+8mL
+        AP/MjQD/zI0A/8WIAP9fQQLhEg8HRQAAAA0NCAOYhlwA/cyQCv/n0Zn//v7+/////////////////+Li
+        4v9BQEL3EQ8RzhEOEccRDhHHEQ4RxxEOEccRDhHHEQ4RxxEOEccPDg65Dw8PIQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAFQ4VJScmKPvMy83//////////////////////9fV1/9lYmX/VlFW/1ZRVv9WUVb/VlFW/1ZR
+        Vv9WUVb/bmBF/8aLBf/KjAD/yowA/8eKAP91UAH6FA4I1QcHB0scEgXVnWsA/8uPCv/n0Zn//v7+////
+        /////////////+zr7P95d3n/VlFW/1ZRVv9WUVb/VlFW/1ZRVv9WUVb/VlFW/1BMUf8mJSbsEhISKgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAFQ4VJScmJ/vMy8z///////////////////////r6+v/u7e7/7Ovs/+zr
+        7P/s6+z/7Ovs/+zr7P/s6+z/6+XT/9KdJv/KiwD/yowA/8qMAP+lcQD/LR4C/Q0JBeo7JwL7tn0A/8qP
+        Cv/m0Zr//v7+//////////////////z8/P/w7/D/7Ovs/+zr7P/s6+z/7Ovs/+zr7P/s6+z/7Ovs/97d
+        3v9eXF7sGBIYKgAAAAAAAAAAAAAAAAAAAAAAAAAAFQ4VJScmJ/vMy8z/////////////////////////
+        /////////////////////////////////////////v34/9yzS//JiwH/yowA/8qMAP/FiAD/jGAA/1U3
+        AP+LXgD/xokA/8qPCv/m0Zn//v7+////////////////////////////////////////////////////
+        //////////////Dv8P9kYmTsGBIYKgAAAAAAAAAAAAAAAAAAAAAAAAAAFQ4VJScmJ/vMy8z/////////
+        /////////////////////////////////////////////////////////////+nOhf/MjgT/yowA/8qM
+        AP/KjAD/yYsA/8CEAP/HiQD/yowA/8qPCv/m0Jn//v7+////////////////////////////////////
+        //////////////////////////////Dv8P9kYmTsEhISKgAAAAAAAAAAAAAAAAAAAAAAAAAAFQ4VJScm
+        J/vMy8z///////////////////////////////////////////////////////////////////////Ll
+        wv/MlBL/yowA/8qMAP/KjAD/yowA/8uMAP/KjAD/yowA/8qPCv/m0Jn//v7+////////////////////
+        //////////////////////////////////////////////Dv8P9kYmTsEhISKgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAFQ4VJScmJ/vMy8z/////////////////////////////////////////////////////////
+        /////////////+nk2f+thC3/yIoA/8qMAP/KjAD/yowA/8qMAP/KjAD/yowA/8uPCv/m0Zn//v7+////
+        //////////////////////////////////////////////////////////////Dv8P9kYmTsEhISKgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAFQ4VJScmJvvMysv/////////////////////////////////////////
+        /////////////////////////////9/d3f9uWDP/tHsA/8yNAP/KjAD/yowA/8qMAP/KjAD/yowA/86R
+        Cv/n0Zn//v7+//////////////////////////////////////////////////////////////////Dv
+        8P9kYmTsEhISKgAAAAAAAAAAAAAAAAAAAAAAAAAAFQ4VJScmJ/vJyMn/+/r7//v7+//7+/v/+/v7//v7
+        +//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7/9rZ2v8/OTT9ZUQB/ruBAP/LjAD/yowA/8qM
+        AP/LjAD/yosA/7eACv/Twpn/+vr6//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7
+        +//7+/v/+/v7/+zs7P9jYmPsGBIYKgAAAAAAAAAAAAAAAAAAAAAAAAAAFQ4VJB4dHvePjY//sa+y/7Gv
+        sv+xr7L/sa+y/7Gvsv+xr7L/sa+y/7Gvsv+xr7L/sa+y/7Gvsv+xr7L/sa+y/5uZm/8wLS/VGRIF62FC
+        Af+mcgD/wYUA/8WIAP+7gQD/l2cA/1c9CP9+eG7/sa+y/7Gvsv+xr7L/sa+y/7Gvsv+xr7L/sa+y/7Gv
+        sv+xr7L/sa+y/7Gvsv+xr7L/sa+y/6elp/9JR0npExMTKQAAAAAAAAAAAAAAAAAAAAAAAAAAERERDxEQ
+        Eb4qKCr8NDM0/DQzNPw0MzT8NDM0/DQzNPw0MzT8NDM0/DQzNPw0MzT8NDM0/DQzNPw0MzT8NDM0/C4t
+        L/wXFxelDw8MmxUQB/05JgH/WzsA/2RBAP9OMwD/MCAE/RMPC/whICH8NDI0/DQzNPw0MzT8NDM0/DQz
+        NPw0MzT8NDM0/DQzNPw0MzT8NDM0/DQzNPw0MzT8NDM0/DEwMvweHR67CwsLFwAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAgICDwFBQVkBQUFZAUFBWQFBQVkBQUFZAUFBWQFBQVkBQUFZAUFBWQFBQVkBQUFZAUF
+        BWQFBQVkBQUFZAUFBWQMDAw+ERERLAsLC3EMCwvSFQ8L8RgRC/EPCwrSBwcHcQ0NDWQFBQVkBQUFZAUF
+        BWQFBQVkBQUFZAUFBWQFBQVkBQUFZAUFBWQFBQVkBQUFZAUFBWQFBQVkBQUFZAUFBWQICAg+AAAABAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwcAAkSEg5IERETXBERE1wSEhJIHBwcCQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAgAA
+        AAIAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Colunas</value>
+  </data>
+  <data name="btOpenFile.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>183, 24</value>
+  </data>
+  <data name="txNomenclaturaAtlysPlanos.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>183, 199</value>
+  </data>
+  <data name="txTable.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>251, 27</value>
+  </data>
+  <data name="&gt;&gt;txPrecoPlano.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txSchema.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>3</value>
+  </data>
+  <data name="txNomenclaturaAtlysBonusFranquia.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>17</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>nomenclatura_intergrall</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>237, 15</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txNomenclaturaComercial.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="btOpenFile.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;cbTruncate.Name" xml:space="preserve">
+    <value>cbTruncate</value>
+  </data>
+  <data name="richTextBox1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>9</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="txNomenclaturaAtlysPlanos.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>15</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>2</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Table</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Gerar Query</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="txPrecoPlano.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>72, 15</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>146, 443</value>
+  </data>
+  <data name="&gt;&gt;txTable.Name" xml:space="preserve">
+    <value>txTable</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>39, 174</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txNomenclaturaAtlysBonusFranquia.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txNomenclaturaComercial.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>34, 15</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="lbValoresLidos.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>536, 463</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>105, 32</value>
+  </data>
+  <data name="&gt;&gt;txDatabase.Name" xml:space="preserve">
+    <value>txDatabase</value>
+  </data>
+  <data name="&gt;&gt;txTable.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbTruncate.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;txSchema.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Name" xml:space="preserve">
+    <value>richTextBox1</value>
+  </data>
+  <data name="cbTruncate.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="txPrecoPlano.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>19</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>292, 207</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>356, 174</value>
+  </data>
+  <data name="txSchema.Text" xml:space="preserve">
+    <value>retencao_movel</value>
+  </data>
+  <data name="&gt;&gt;txNomenclaturaIntergrall.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="txNomenclaturaAtlysPlanos.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>67, 23</value>
+  </data>
+  <data name="cbTruncate.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>183, 19</value>
+  </data>
+  <data name="&gt;&gt;txNomenclaturaAtlysPlanos.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txDatabase.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;txNomenclaturaAtlysPlanos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txPlanilha.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>12</value>
+  </data>
+  <data name="txNomenclaturaAtlysPlanos.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="txTable.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>5</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 207</value>
+  </data>
+  <data name="lbValoresLidos.Text" xml:space="preserve">
+    <value>Valores Lidos: 0</value>
+  </data>
+  <data name="&gt;&gt;txDatabase.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>150, 15</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txNomenclaturaComercial.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cbTruncate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txNomenclaturaComercial.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>183, 166</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>nomenclatura_comercial</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cbTruncate.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>440, 29</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>343, 35</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="txNomenclaturaIntergrall.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>67, 23</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txDatabase.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 27</value>
+  </data>
+  <data name="&gt;&gt;txNomenclaturaComercial.Name" xml:space="preserve">
+    <value>txNomenclaturaComercial</value>
+  </data>
+  <data name="txDatabase.Text" xml:space="preserve">
+    <value>rpa</value>
+  </data>
+  <data name="&gt;&gt;txPlanilha.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;btOpenFile.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txNomenclaturaAtlysBonusFranquia.Name" xml:space="preserve">
+    <value>txNomenclaturaAtlysBonusFranquia</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;txNomenclaturaIntergrall.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>251, 9</value>
+  </data>
+  <data name="txPlanilha.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>402, 23</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="txNomenclaturaIntergrall.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>496, 166</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;txNomenclaturaIntergrall.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;txPlanilha.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>110, 9</value>
+  </data>
+  <data name="txPlanilha.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 79</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Name" xml:space="preserve">
+    <value>openFileDialog1</value>
+  </data>
+  <data name="txNomenclaturaAtlysBonusFranquia.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lbValoresLidos.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txPlanilha.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lbValoresLidos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txNomenclaturaComercial.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txPrecoPlano.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>183, 228</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="richTextBox1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 257</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btOpenFile.Name" xml:space="preserve">
+    <value>btOpenFile</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txNomenclaturaAtlysBonusFranquia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>133, 15</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>27, 9</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>197, 15</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="btOpenFile.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>440, 79</value>
+  </data>
+  <data name="&gt;&gt;txSchema.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="richTextBox1.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>596, 172</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>0</value>
+  </data>
+  <data name="txNomenclaturaIntergrall.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txNomenclaturaComercial.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;lbValoresLidos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>645, 490</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txTable.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>178, 23</value>
+  </data>
+  <data name="&gt;&gt;cbTruncate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="lbValoresLidos.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>23</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Coluna A = 1, Coluna B = 2; Coluna C = 3 ...</value>
+  </data>
+  <data name="&gt;&gt;txTable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="txTable.Text" xml:space="preserve">
+    <value>de_para_planos_bonificacoes</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>nomenclatura_atlys_bonus_franquia</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btOpenFile.Text" xml:space="preserve">
+    <value>Abrir Planilha</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing.Primitives">
+    <value>7, 15</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;txPlanilha.Name" xml:space="preserve">
+    <value>txPlanilha</value>
+  </data>
+  <data name="txNomenclaturaAtlysBonusFranquia.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>495, 199</value>
+  </data>
+  <data name="&gt;&gt;txSchema.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>pt-BR</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+</root>
